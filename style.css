@@ -1,0 +1,94 @@
+#container{
+    width:100%;
+    height:40vh;
+    background-color: #042549;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    border-radius:0 0 50% 50%;
+}
+#text{
+    color:white;
+}
+img{
+    width:50px;
+    height: auto;
+}
+#footer {
+    position: fixed;  
+    bottom:0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+.re{
+    width: 40px;
+    height:auto;
+}
+.size{
+    width:40px;;
+    height:auto
+}
+/* Popup Container */
+#popup-container{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    visibility: hidden;
+}
+
+#popup {
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+/* Header */
+.popup-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(208, 229, 238);
+}
+
+button{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 60px;
+    background-color: #042549;
+    color: white;
+}
+.t1{
+    display: grid;
+    padding: 3px;
+}
+.t2{
+    display: grid;
+    padding: 3px;
+}
+.one{
+    display:flex;
+}
+audio{
+    width: 200px;
+}
+.one{
+    background-color:rgb(171, 212, 213);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
